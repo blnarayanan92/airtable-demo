@@ -6,32 +6,35 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    
     <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="stats_component">
+
         <div class="item">
-            <p>90K+</p>
+            <p>{{stats[1].fields.bookings_made}}</p>
             <span>Booking made</span>
         </div>
         <div class="item">
-            <p>520</p>
+            <p>{{stats[1].fields.flights_took_off}}</p>
             <span>Flights took off</span>
         </div>
         <div class="item">
-            <p>40K+</p>
+            <p>{{stats[1].fields.passengers_flew}}</p>
             <span>Passengers flew</span>
         </div>
         <div class="item">
-            <p>88</p>
+            <p>{{stats[1].fields.airports_operated}}</p>
             <span>Airports operational</span>
         </div>
         <div class="item">
-            <p>8</p>
+            <p>{{stats[1].fields.airlines_operated}}</p>
             <span>Airlines operational</span>
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 
 </html>
