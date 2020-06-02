@@ -1,0 +1,22 @@
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, “Helvetica Neue”, Ubuntu, Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #343434;
+    border-radius: 4px;
+}
+.container p{
+    color: #333;
+    font-size: 48px;
+    margin: 0;
+    line-height: 60px;
+}
+.container span{
+    color: #808080;
+}
