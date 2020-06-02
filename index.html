@@ -6,11 +6,13 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+
     <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="stats_component">
+
         <div class="item">
             <p>{{stats[1].fields.bookings_made}}</p>
             <span>Booking made</span>
@@ -31,6 +33,8 @@
             <p>{{stats[1].fields.airlines_operated}}</p>
             <span>Airlines operational</span>
         </div>
+    </div>
 </body>
+<script src="script.js"></script>
 
 </html>
