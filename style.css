@@ -7,7 +7,7 @@ body{
     justify-content: space-evenly;
     width: 960px;
     margin: 100px auto;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #343434;
     border-radius: 4px;
 }
@@ -16,6 +16,7 @@ body{
     font-size: 48px;
     margin: 0;
     line-height: 60px;
+    font-weight: 500;
 }
 .container span{
     color: #808080;
